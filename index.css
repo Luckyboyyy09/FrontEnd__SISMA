@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(54, 54, 54, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/wallpaper.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  padding-top: 1em;
+}
+
+.header__image {
+  padding-left: 1em;
+}
+
+.twh {
+  width: 8em;
+}
+
+.header__text {
+  padding-left: 0.5em;
+  padding-top: 1em;
+}
+
+.header__text h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__text h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.main__card {
+  box-sizing: border-box;
+  min-width: 30em;
+  width: 28vw;
+  height: 40vh;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__card h1 {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.card__login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #d9d9d9;
+  padding: 2em;
+  border-radius: 1em;
+  margin-top: 1em;
+  text-decoration: none;
+}

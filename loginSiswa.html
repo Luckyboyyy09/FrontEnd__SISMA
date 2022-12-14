@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="loginSiswa.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="header__image">
+          <img
+            src="/images/twh.png"
+            alt="Logo Tut Wuri Handayani"
+            class="twh"
+          />
+        </div>
+        <div class="header__text">
+          <h2>Selamat Datang di SISMA</h2>
+          <h3>Sistem Manajemen Siswa</h3>
+        </div>
+      </div>
+    </header>
+    <div class="container__card">
+      <form action="post">
+        <div class="txt_field">
+          <input type="text" name="username" required placeholder="Username" />
+        </div>
+        <div class="txt_field">
+          <input
+            type="password"
+            name="username"
+            required
+            placeholder="Password"
+          />
+        </div>
+        <div class="post__btn">
+          <a href="/menuSiswa.html" class="btn-login">Login</a>
+          <a href="/index.html" class="btn-login">Back</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
